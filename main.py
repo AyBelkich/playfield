@@ -17,7 +17,7 @@ while True:
 
     if input_name.strip().lower() == my_name.lower():
         break
-"""
+
 import math
 
 x = 1.111
