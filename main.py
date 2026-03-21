@@ -50,3 +50,101 @@ while True:
     else:
         print("The choice was between 'yes' and 'no'; how you contrived a third answer is beyond me.")
         had_wrong_answer = True
+"""
+import time
+
+anaHimaaron = False
+
+print("please type the following letters one by one each followed by a separate enter click: a, n, a,  , h, i, m, a, a, r, o, n. \nRemember that to succeed you can't fail and that if you fail you can't succeed.")
+
+while True:
+
+    a = input("...")
+    if a.strip().lower() != "a":
+        anaHimaaron = True
+        break
+
+    an = input("...")
+    if an.strip().lower() != "n":
+        anaHimaaron = True
+        break
+
+    ana = input("...")
+    if ana.strip().lower() != "a":
+        anaHimaaron = True
+        break
+
+    ana_ = input("...")
+    if ana_ != " ":
+        anaHimaaron = True
+        break
+
+    ana_h = input("...")
+    if ana_h.strip().lower() != "h":
+        anaHimaaron = True
+        break
+
+    ana_hi = input("...")
+    if ana_hi.strip().lower() != "i":
+        anaHimaaron = True
+        break
+
+    ana_him = input("...")
+    if ana_him.strip().lower() != "m":
+        anaHimaaron = True
+        break
+
+    ana_hima = input("...")
+    if ana_hima.strip().lower() != "a":
+        anaHimaaron = True
+        break
+
+    ana_himaa = input("...")
+    if ana_himaa.strip().lower() != "a":
+        anaHimaaron = True
+        break
+
+    ana_himaar = input("...")
+    if ana_himaar.strip().lower() != "r":
+        anaHimaaron = True
+        break
+
+    ana_himaaro = input("...")
+    if ana_himaaro.strip().lower() != "o":
+        anaHimaaron = True
+        break
+
+    ana_himaaron = input("...")
+    if  ana_himaaron.strip().lower() != "n":
+        anaHimaaron = True
+        break
+    break
+
+if anaHimaaron:
+    print("congrats, you are a himaaron")
+    time.sleep(5)
+    print("CONGRATS, you are a himaaron")
+    time.sleep(4)
+    print("CONGRATS, YOU are a himaaron")
+    time.sleep(3)
+    print("CONGRATS, YOU ARE a himaaron")
+    time.sleep(2)
+    print("CONGRATS, YOU ARE A himaaron")
+    time.sleep(1)
+    print("CONGRATS, YOU ARE A HIMAARON")
+
+meanWhile = 10
+
+while meanWhile > 0:
+    meanWhile = meanWhile - 1
+    time.sleep(1)
+    print(".", end="")
+
+time.sleep(5)
+
+while True:
+    print("YOU'RE A HIMAARON")
+    continue
+
+if not anaHimaaron:
+    print("congrats, you are not a himaaron")
